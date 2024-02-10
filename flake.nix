@@ -9,7 +9,12 @@
 		nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
 		# nixpkgs-unstable-small.url = "github:nixos/nixpkgs/nixos-unstable";
 		nixpkgs-master.url = "github:nixos/nixpkgs/master";
-		nixpkgs-staging.url = "github:nixos/nixpkgs/staging";
+    nixpkgs-staging.url = "github:nixos/nixpkgs/staging";
+
+    # Principles
+    flake-parts.url = "github:hercules-ci/flake-parts";
+    mission-control.url = "github:Platonic-Systems/mission-control";
+    flake-root.url = "github:srid/flake-root";
 	};
 
 	outputs = inputs @ { self, ... }:
