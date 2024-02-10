@@ -1,3 +1,5 @@
 *.fcstd1
 *.FCStd1
 *.stl
+*.FCBak
+.direnv/
