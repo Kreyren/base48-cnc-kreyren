@@ -1,0 +1,4 @@
+[submodule "vendor/CAD-Drill-Alignment-Tool"]
+	path = vendor/CAD-Drill-Alignment-Tool
+	url = https://github.com/Kreyren/CAD-Drill-Alignment-Tool.git
+	branch = base48-cnc-side-panel

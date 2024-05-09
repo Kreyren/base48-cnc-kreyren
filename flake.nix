@@ -49,7 +49,7 @@
 					];
 					inputsFrom = [ config.mission-control.devShell ];
 					# Environmental Variables
-					#RULES = "./secrets/secrets.nix"; # For ragenix to know where secrets are
+					LC_ALL = "C"; # Disable weeb mode
 				};
 
 				formatter = inputs.nixpkgs.nixpkgs-fmt;
